@@ -1,5 +1,7 @@
 # Snowflake
 
+[![Build Status](https://travis-ci.org/huiyu/snowflake.svg?branch=master)](https://travis-ci.org/huiyu/snowflake)
+
 This is a java version of [Twitter Snowflake](https://github.com/twitter/snowflake). 
 
 Twitter Snowflake is a network service for generating unique ID which requiring twitter's infrastructure service. We prefer Snowflake a simple java library rather than a network service so it can be embbed in any network service.
