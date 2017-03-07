@@ -1,4 +1,4 @@
-package me.jeffreyu.snowflake;
+package io.github.huiyu.snowflake;
 
 public class InvalidSystemClockException extends RuntimeException {
 
