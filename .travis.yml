@@ -3,3 +3,9 @@ sudo: false
 
 jdk:
   - oraclejdk8
+install:
+  - mvn test-compile -DskipTests=true -Dmaven.javadoc.skip=true -B -V
+script:
+  - mvn test  org.jacoco:jacoco:0.7.9:report
+after_success:
+  - mvn org.codehaus.mojo:cobertura-maven-plugin:2.7:report
