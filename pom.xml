@@ -5,7 +5,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <name>Snowflake</name>
-    <groupId>me.jeffreyu</groupId>
+    <groupId>io.github.huiyu</groupId>
     <artifactId>snowflake</artifactId>
     <version>1.0-SNAPSHOT</version>
     <description>A Java version of Twitter Snowflake</description>
